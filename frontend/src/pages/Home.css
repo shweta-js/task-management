@@ -1,0 +1,299 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  
+   
+}
+.card-container>div{
+  border-radius: 1rem;
+  padding:1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.card{
+  transition: transform .4s;
+}
+.card:hover{
+  transform: scale(1.2); 
+}
+.card-image{
+    height: 10rem;
+    width: 17.9rem;
+    border-radius: 1rem;
+
+    /* margin-left:2rem;
+    margin-bottom:1rem;
+     */
+}
+.badge{
+  float:left;
+  width:6rem;
+  height: 6rem;
+  position: absolute;
+  margin-right:10rem;
+  margin-bottom:1rem;
+}
+
+.site-footer
+{
+  background-color:#14B8A6;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#fff;
+  width:100%;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#fff;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#fff;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#245867;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.Jumbotron{
+    background-color: #E9ECEF;
+    height: 20rem;
+    padding:2rem;
+
+   
+}
+.display-4{
+    font-size: 4rem;
+
+}
+.lead{
+    font-size: 1.8rem;
+}
+.sign-me-up{
+    background-color: #14B8A6;
+    padding:.8rem;
+    color:#fff;
+    font-weight: bold;
+    border-radius: .5rem;
+    margin-top:2rem;
+    width:120px;
+    transition: transform .4s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+.sign-me-up:hover{
+  transform: scale(1.2); 
+}
+
+
+.pickups{
+  font-weight: bold;
+}
+.sign-me-up:hover{
+  background-color: #128d7e;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.footer-row{
+    display: flex;
+    flex-direction: row;
+  
+
+    justify-content: space-evenly;
+}
+.footer-row>div{
+    width:20rem;
+}
+.copyright-text{
+    margin-top:2rem;
+    text-align: center;
+}
+.firstimg{
+
+    width:70%; /* you can use % */
+    height: auto;
+    border-bottom-left-radius:15rem;
+
+}
+.firstpart{
+  display: flex;
+  flex-direction: row;
+}
+.firstpartb{
+  margin-top:8rem;
+  padding:1rem;
+}
+.somelines{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding:1rem;
+}
+.someline>h1{
+  font-size: xx-large;
+  font-weight: bold;
+  
+}
+.someline{
+  padding:2rem;
+}
+.someline:hover{
+  cursor: pointer;
+  color:rgb(119, 118, 118)
+}
