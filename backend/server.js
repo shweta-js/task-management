@@ -29,6 +29,13 @@ app.use('/api/users', userRoutes);
 app.use('/api/tasks', taskRoutes);
 app.use('/api/employees',employeeRoutes);
 
-app.use(errorHandler);
-
+// app.use(errorHandler);
+// if (process.env.NODE_ENV === "production") {
+//     app.use(express.static("front/build"));
+//     const path = require('path')
+//     app.get("*", (req, res) => {
+//     res.sendFile(path.resolve(__dirname, 'front', 'build', 
+//     'index.html'))
+//     })
+// }
 app.listen(PORT, () => console.log(`Server running on ${PORT} port`.yellow.bold));
